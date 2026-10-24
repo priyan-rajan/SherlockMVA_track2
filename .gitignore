@@ -1,0 +1,8 @@
+# generated artifacts — keep only code/configs in git
+work/
+results/
+.nextflow/
+.nextflow.log
+run.log
+*.chk
+*.dcd

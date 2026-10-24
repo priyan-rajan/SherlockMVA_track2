@@ -1,0 +1,11 @@
+name: bubmd
+# Molecular-dynamics env (Stage 2). Used by PREP_SYSTEM, MD, ANALYZE.
+# Create with:  micromamba create -f environment_md.yml -n bubmd
+channels: [conda-forge]
+dependencies:
+  - openmm>=8.0
+  - pdbfixer
+  - mdtraj
+  - numpy
+  - pandas
+  - matplotlib

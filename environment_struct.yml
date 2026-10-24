@@ -1,0 +1,14 @@
+name: bubdock
+# Structure / druggability env (Stage 1). Used by FETCH_AF, FPOCKET, ...
+# Create with:  micromamba create -f environment_struct.yml -n bubdock
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - fpocket=4.2.3
+  - pymol-open-source=3.1.0
+  - openbabel=3.2.1
+  - pdb-tools=2.7.0
+  - biopython=1.88
+  - requests=2.34.2
